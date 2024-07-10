@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+% Adjust margins
+\usepackage[left=0.5in,top=0.2in,right=0.5in,bottom=0.2in]{geometry}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Amaan Bhati} \\ \vspace{2pt}
+    \href{https://github.com/amaan-bhati}{\raisebox{-0.2\height}\faGithub\ {Github}} ~
+    \href{https://www.linkedin.com/in/amaan-bhati/}{\raisebox{-0.2\height}\faLinkedin\ {Linkedin}} ~
+\href{mailto:amaanbhati49@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {amaanbhati49@gmail.com}} 
+ \href{https://amaanbhati.tech}{\raisebox{-0.2\height}\faLaptopCode\ {\textbf{amaanbhati.tech}}} ~
+  
+\href{https://leetcode.com/amaanbhati}{\raisebox{-0.2\height}\faLaptopCode\ {Leetcode Profile}} ~
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+91860-380-8548}{+91 6200658194} ~ 
+  \href{https://contact.amaanbhati.tech}{\raisebox{-0.2\height}\faLaptopCode\ {\textbf{contact.amaanbhati.tech}}} ~
+    
+\end{center}
+
+%-----------SUMMARY-----------
+\vspace{-6mm}
+\section{Summary}
+ Result driven final year Computer Science student with a strong aptitude for development and proficiency in \textbf{modern frameworks}. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a \textbf{quick learner} with the ability to swiftly adapt to new technology stacks.
+
+%-----------EXPERIENCE-----------
+\vspace{-3mm}
+\section{Experience}
+\resumeSubHeadingListStart
+\vspace{-2mm}
+\resumeSubheading
+{KIIT DIGITAL}{Jan '24 -- Mar 24}
+{Web Dev Intern}{\textbf{On Site }, Bhubaneswar}
+\resumeItemListStart
+\resumeItem{\textbf{Collaborated}\textbf{ effectively} with design teams to turn UI/UX mockups into \textbf{user-friendly websites}.}
+\resumeItem{\textbf{Developed and maintained high-traffic websites} for KIIT University, including conference platforms and school/college websites, ensuring optimal user experience for a diverse user base.}
+% \resumeItem{Leveraged front-end skills to build scalable and user-friendly websites.}
+% \resumeItem{Integrated AWS services for secure backend access and implemented CloudFront for efficient data caching.}
+\resumeItemListEnd
+
+\vspace{-4mm}
+\resumeSubheading
+{ZIVRI}{May 23 -- Jun 23}
+{Three.js Web Developer}{Remote}
+\resumeItemListStart
+\resumeItem{\textbf{Interactive 3D Clothing Customization:} Designed and developed a user-friendly interface for \textbf{real-time }color & size adjustments of clothing in 3D. \textbf{Tested and compressed} 3D models & images to ensure \textbf{fast loading times}}
+% \resumeItem{\textbf{Optimized 3D Experience:} Rigorously \textbf{tested and compressed} 3D models & images to ensure \textbf{fast loading times} and a seamless user experience.}
+\resumeItem{\textbf{AI-Powered Personalization}: Integrated a color canvas and \textbf{OpenAI-powered} image/logo generation tool for personalized t-shirt designs.}
+\resumeItemListEnd
+
+% \resumeSubheading
+% {TEDxKIITUNIVERSITY}{April 23 -- May 23}
+% {Full Stack Developer}{On site , Bhubaneswar}
+% \resumeItemListStart
+% \resumeItem{Organized tech events, hosted workshops, and developed Stocks Dashboard Site.}
+% \resumeItem{Collaborated with ambassadors to promote 'Tech for All' through events and resources.}
+% \resumeItemListEnd
+
+\vspace{-4mm}
+\resumeSubheading
+{MICROSOFT LEARN STUDENT AMBASSADOR , KIIT CHAPTER}{Jan '22 -- Present}
+{\textbf{Web Dev and Tech Lead}}{Hybrid}
+\resumeItemListStart
+\resumeItem{Led High-Performing Tech Team: \textbf{Managed a team of 20+} designers, front-end, and back-end developers, fostering collaboration and \textbf{driving project success}.}
+\resumeItem{Oversaw the development of multiple high-traffic website, \textbf{ensuring high functionality and scalability}.}
+\resumeItem{\textbf{Led initiatives} to build a vibrant tech community, attracting, \textbf{hosting} and engaging aspiring developers through various events and activities.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+% \vspace{-5mm}
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \vspace{-3mm}
+% \resumeProjectHeading
+% {\textbf{\href{https://www.tedxkiituniversity.in/}{TEDxKIIT Website}} $|$ \emph{Reactjs, CSS, Bootstrap}}{April '23}
+% \resumeItemListStart
+% \resumeItem{ Leveraged ReactJS and CSS to deliver a \textbf{visually appealing, optimal and scalable} user interface for the TEDxKIITUniversity website,\textbf{ adhering to TEDx design patterns.}}
+% \resumeItem{\textbf{Optimized} the frontend for smooth performance within a \textbf{fast-paced development environment}. }
+% \resumeItem{Implemented color canvas and an AI tool for image and logo generations on t-shirts using OpenAI.}
+% \resumeItemListEnd
+
+ 
+ 
+
+
+\vspace{-5mm}
+\section{Projects}
+\resumeSubHeadingListStart
+\vspace{-3mm}
+\resumeProjectHeading
+{\textbf{\href{https://amaanbhati.tech/}{HIGH PERFORMANCE DOMAIN WEBSITES}} $|$ \emph{Reactjs/Nextjs, Javascript/Typescript, CSS, TailwindCSS. }}{April '23}
+\resumeItemListStart
+\resumeItem{ Designed, Developed and Deployed \textbf{High Performance} Personal Portfolio {\href{https://amaanbhati.tech/}{(\textbf{amaanbhati.tech})}}): Built with ReactJS (\textbf{2 years strong}). Showcases my skills, projects, experiences, blog, gallery and social links.}}
+\resumeItem{Implemented Subdomains for \textbf{Enhanced SEO}  {\href{https://contact.amaanbhati.tech/}{(\textbf{contach.amaanbhati.tech})}}): \textbf{Improved website discoverability}, \textbf{optimization} and user experience for specific sections. }
+\resumeItem{Built a \textbf{highly optimized blog app} on top of nextjs, typescript and tailwind with \textbf{Enhanced SEO} is where I write and upload technical blogs at  {\href{https://blog.amaanbhati.tech/}{(\textbf{blog.amaanbhati.tech})}} }
+\resumeItemListEnd
+
+
+\vspace{-5mm}
+\resumeProjectHeading
+{\textbf{\href{https://www.kiitfest.org/}{KIITFEST Website}} $|$ \emph{Next.js , Tailwind CSS.}}{Jan '24}
+\resumeItemListStart
+\resumeItem{\textbf Contributed to the development of the KIITFEST website, East India's largest cultural-technical fest website, \textbf{managing 20k+ registrations}.}
+\resumeItem{Collaborated with design and \textbf{testing} team for \textbf{optimal user experience} and experienced \textbf{handling high-traffic}.}
+\resumeItemListEnd 
+\vspace{-4mm}
+\resumeProjectHeading
+{\textbf{\href{https://www.mlsakiit.com/}{MLSA Website}} $|$ \emph{Next.js , Tailwind CSS, Typescript.}}{Jul '21}
+\resumeItemListStart
+\resumeItem{\textbf{Pioneered High-Traffic Community Website:} \textbf{Led the design and development} of the official MLSAKIIT website, utilizing Figma for UI/UX design and leveraging cutting-edge Next.js and Tailwind CSS frameworks. The website efficiently handles high traffic due to its\textbf{ robust architecture and scalability}.}
+\resumeItem{\textbf{Implemented} the idea of user dashboard and digital passes for tech events making the entry \textbf{smooth and fast} \textbf{using Next.js when it was not yet mainstream}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\vspace{-5mm}
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: JavaScript, TypeScript, Python, SQL, HTML, CSS.} \\
+    \textbf{Libraries and Frameworks}{: Reactjs/Next.js, Nodejs, ExpressJS, NextAuth, Threejs, GSAP, Tailwind CSS.} \\
+    \textbf{Database}{: MongoDB, NeonDB, Firebase, Supabase, MysSQL, PostgreSQL.} \\
+    \textbf{Dev Tools}{: Git, GitHub, VS Code, Bash, Figma, Vercel, OpenAI, GenerativeAI, Jest, RestAPI.} \\
+
+    % \textbf{Other skills }{:Node.js , DBMS , SQL , OS , DSA , SE, Agile , Scrum , Computer Networks.} \\
+    }}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\vspace{-5mm}
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY}{2021 -- 2025}
+{B. Tech in Computer Science and Engineering , CGPA 7.5/10}{Bhubaneswar, Odisha .}
+\resumeSubHeadingListEnd
+
+\end{document}
